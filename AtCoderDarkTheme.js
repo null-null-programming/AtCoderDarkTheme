@@ -10,16 +10,6 @@
 // ==/UserScript==
 
 (function () {
-    /*
-
-    outer_back_color = "#111111"; //濃い黒色
-    inner_back_color = "#333333"; //薄い黒色
-    table_odd_kth_color="323232":少し薄い黒色
-    text_color = "#EFFFE9"; //灰色
-    imformation_panel = "#2f4f4f" //空色
-    contest_panel = "#FFD999"　//紅色
-
-    */
 
     update();
 
@@ -59,7 +49,7 @@
         );
 
     }
-
+    /////////////////////////////////////////////////////////////////
     //外部全体
     $("body").css({
         "background-color": "#111111",
